@@ -78,21 +78,28 @@ Engine: Graphviz (More detail)
 - **Python**: Full analysis (AST + pyflowchart).
 - **Java, C++, JS, PHP**: Basic flow analysis based on control structures.
 ## 🛠️ Project Structure
+```
 Genarador Diagrama/
 │
-├── generador_diagramas3000.py
-├── core/
-│   ├── analyzer.py
-│   ├── renderer.py
-│   └── utils.py
-├── gui/
-│   └── app.py
+├── generador_diagramas3000.py      # Main entry point
+│
+├── core/                           # Program logic engine
+│   ├── analyzer.py                 # Code analysis and logic detection
+│   ├── renderer.py                 # Conversion to DOT/Mermaid and PDF rendering
+│   └── utils.py                    # System utilities and text processing
+│
+├── gui/                            # Graphical Interface
+│   └── app.py                      # Window definition and UI logic
+│
 ├── Otros/
-│   ├── imagen.ico
-│   ├── imagen.png
-│   └── generador_diagramas3000.spec
-├── requirements.txt
-└── README.md
+│   ├── imagen.ico                  # Application icon
+│   ├── imagen.png                  # Logo for documentation
+│   └── generador_diagramas3000.spec # PyInstaller configuration
+│
+├── requirements.txt                # Python dependencies
+└── README.md                       # Documentation
+```
+
 ## 🤝 Contributions
 Contributions are welcome. If you want to add support for other programming languages, consider:
 1. Implementing language-specific parsers
