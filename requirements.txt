@@ -1,0 +1,17 @@
+# Dependencias para el Generador de Diagramas de Flujo 3000
+# Python 3.8 o superior requerido
+
+# Librería para peticiones HTTP (comunicación con Kroki.io)
+requests>=2.28.0
+
+# Procesamiento de imágenes
+Pillow>=9.0.0
+
+# Generación de diagramas de flujo desde código Python
+pyflowchart>=0.3.1
+
+# Interfaz gráfica moderna
+customtkinter>=5.0.0
+
+# Nota: El módulo 'ast' es parte de la biblioteca estándar de Python
+# Nota: tkinter viene incluido con la instalación estándar de Python
